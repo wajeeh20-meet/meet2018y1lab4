@@ -1,0 +1,22 @@
+import turtle
+wajeeh=turtle.Turtle()
+turtle.bgcolor('purple')
+t2=turtle.Turtle()
+t2.shape('arrow')
+wajeeh.shape('circle')
+wajeeh.pensize(4)
+wajeeh.color('yellow')
+wajeeh.goto(0,150)
+wajeeh.goto(-75,150)
+wajeeh.color('white')                 
+wajeeh.goto(-75,0)
+t2.pensize(10)
+t2.color('green')
+t2.goto(0,-150)
+t2.goto(75,-150)
+t2.color('blue')
+t2.goto(75,0)
+t2.left(90)
+
+turtle.mainloop()
+
